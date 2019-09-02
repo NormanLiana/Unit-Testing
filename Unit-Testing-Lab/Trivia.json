@@ -1,0 +1,123 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "category": "Entertainment%3A%20Music",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Who%20was%20not%20in%20the%20band%20%22The%20Smiths%22%3F",
+            "correct_answer": "Martin%20Chambers",
+            "incorrect_answers": [
+                "Morrissey",
+                "Andy%20Rourke",
+                "Mike%20Joyce"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Which%20song%20by%20Swedish%20electronic%20musician%20Avicii%20samples%20the%20song%20%22Something%27s%20Got%20A%20Hold%20On%20Me%22%20by%20Etta%20James%3F",
+            "correct_answer": "Levels",
+            "incorrect_answers": [
+                "Fade%20Into%20Darkness",
+                "Silhouettes",
+                "Seek%20Bromance"
+            ]
+        },
+        {
+            "category": "General%20Knowledge",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Romanian%20belongs%20to%20the%20Romance%20language%20family%2C%20shared%20with%20French%2C%20Spanish%2C%20Portuguese%20and%20Italian.%20",
+            "correct_answer": "True",
+            "incorrect_answers": [
+                "False"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Music",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What%20year%20was%20Red%20Hot%20Chill%20Pepper%27s%20album%20%22Californication%22%20released%3F",
+            "correct_answer": "1999",
+            "incorrect_answers": [
+                "1997",
+                "2000",
+                "1992"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Toby%20Fox%27s%20%22Megalovania%22%20was%20first%20used%20where%3F",
+            "correct_answer": "Radiation%27s%20Earthbound%20Halloween%20Hack",
+            "incorrect_answers": [
+                "Homestuck%3A%20%5BS%5D%20Wake",
+                "Undertale",
+                "Mother%3A%20Cognitive%20Dissonance"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "What%20is%20not%20a%20playable%20race%20in%20%22Final%20Fantasy%20XIV%3A%20A%20Realm%20Reborn%22%3F",
+            "correct_answer": "Hume",
+            "incorrect_answers": [
+                "Miqo%27te",
+                "Lalafell",
+                "Roegadyn"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "When%20was%20%22System%20Shock%22%20released%3F",
+            "correct_answer": "1994",
+            "incorrect_answers": [
+                "1995",
+                "2000",
+                "1998"
+            ]
+        },
+        {
+            "category": "Politics",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Former%20United%20States%20President%20Bill%20Clinton%20famously%20played%20which%20instrument%3F",
+            "correct_answer": "Saxophone",
+            "incorrect_answers": [
+                "Baritone%20horn",
+                "Piano",
+                "Violin"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Video%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Who%20is%20the%20main%20character%20in%20the%20video%20game%20%22Just%20Cause%203%22%3F",
+            "correct_answer": "Rico%20Rodriguez",
+            "incorrect_answers": [
+                "Tom%20Sheldon",
+                "Marcus%20Holloway",
+                "Mario%20Frigo"
+            ]
+        },
+        {
+            "category": "Entertainment%3A%20Board%20Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "In%20%22Magic%3A%20The%20Gathering%22%2C%20during%20the%20design%20for%20Planar%20Chaos%2C%20what%20color%20did%20the%20developers%20think%20of%20adding%20in%20as%20the%20sixth%20color%3F",
+            "correct_answer": "Purple",
+            "incorrect_answers": [
+                "Brown",
+                "Pink",
+                "Orange"
+            ]
+        }
+    ]
+}

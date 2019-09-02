@@ -13,6 +13,11 @@
 		A5545FE92318696900B99A64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5545FE82318696900B99A64 /* Assets.xcassets */; };
 		A5545FEC2318696900B99A64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5545FEA2318696900B99A64 /* LaunchScreen.storyboard */; };
 		A5545FF72318696900B99A64 /* Unit_Testing_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5545FF62318696900B99A64 /* Unit_Testing_LabTests.swift */; };
+		A554600223186D9500B99A64 /* Trivia.json in Resources */ = {isa = PBXBuildFile; fileRef = A554600123186D9500B99A64 /* Trivia.json */; };
+		A5546004231875A700B99A64 /* StarWars.json in Resources */ = {isa = PBXBuildFile; fileRef = A5546003231875A700B99A64 /* StarWars.json */; };
+		A5546006231875E900B99A64 /* Jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = A5546005231875E900B99A64 /* Jokes.json */; };
+		A554600A2318792D00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
+		A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,10 @@
 		A5545FF22318696900B99A64 /* Unit-Testing-LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit-Testing-LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5545FF62318696900B99A64 /* Unit_Testing_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_Testing_LabTests.swift; sourceTree = "<group>"; };
 		A5545FF82318696900B99A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A554600123186D9500B99A64 /* Trivia.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Trivia.json; sourceTree = "<group>"; };
+		A5546003231875A700B99A64 /* StarWars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWars.json; sourceTree = "<group>"; };
+		A5546005231875E900B99A64 /* Jokes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jokes.json; sourceTree = "<group>"; };
+		A55460092318792D00B99A64 /* TriviaMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaMod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +86,12 @@
 		A5545FE02318696600B99A64 /* Unit-Testing-Lab */ = {
 			isa = PBXGroup;
 			children = (
+				A554600123186D9500B99A64 /* Trivia.json */,
+				A5546003231875A700B99A64 /* StarWars.json */,
+				A5546005231875E900B99A64 /* Jokes.json */,
 				A5545FE12318696600B99A64 /* AppDelegate.swift */,
 				A5545FE32318696600B99A64 /* ViewController.swift */,
+				A55460092318792D00B99A64 /* TriviaMod.swift */,
 				A5545FE52318696600B99A64 /* Main.storyboard */,
 				A5545FE82318696900B99A64 /* Assets.xcassets */,
 				A5545FEA2318696900B99A64 /* LaunchScreen.storyboard */,
@@ -177,8 +190,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5546006231875E900B99A64 /* Jokes.json in Resources */,
+				A5546004231875A700B99A64 /* StarWars.json in Resources */,
 				A5545FEC2318696900B99A64 /* LaunchScreen.storyboard in Resources */,
 				A5545FE92318696900B99A64 /* Assets.xcassets in Resources */,
+				A554600223186D9500B99A64 /* Trivia.json in Resources */,
 				A5545FE72318696600B99A64 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A554600A2318792D00B99A64 /* TriviaMod.swift in Sources */,
 				A5545FE42318696600B99A64 /* ViewController.swift in Sources */,
 				A5545FE22318696600B99A64 /* AppDelegate.swift in Sources */,
 			);
@@ -207,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5545FF72318696900B99A64 /* Unit_Testing_LabTests.swift in Sources */,
+				A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
