@@ -124,6 +124,21 @@ class Unit_Testing_LabTests: XCTestCase {
             ])
     }
 
+    // Mark: Testing for StarWars.JSON file
+    
+    private func getStarWarsDataFromJSON() -> Data {
+        guard let pathToData = Bundle.main.path(forResource: "Star", ofType: "json") else {
+            fatalError("couldn't find json file called StarWars.json")
+        }
+        let url = URL(fileURLWithPath: pathToData)
+        do {
+            let data = try Data(contentsOf: url)
+            return data
+        } catch let jsonError {
+            fatalError("couldn't find data in json file: \(jsonError)")
+        }
+    }
+    
     
     
 }

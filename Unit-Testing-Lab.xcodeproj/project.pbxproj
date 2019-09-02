@@ -18,6 +18,7 @@
 		A5546006231875E900B99A64 /* Jokes.json in Resources */ = {isa = PBXBuildFile; fileRef = A5546005231875E900B99A64 /* Jokes.json */; };
 		A554600A2318792D00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
 		A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
+		A5546039231DD85300B99A64 /* StarWarsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5546038231DD85300B99A64 /* StarWarsMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A5546003231875A700B99A64 /* StarWars.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWars.json; sourceTree = "<group>"; };
 		A5546005231875E900B99A64 /* Jokes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Jokes.json; sourceTree = "<group>"; };
 		A55460092318792D00B99A64 /* TriviaMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaMod.swift; sourceTree = "<group>"; };
+		A5546038231DD85300B99A64 /* StarWarsMod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsMod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,7 @@
 				A5546005231875E900B99A64 /* Jokes.json */,
 				A5545FE12318696600B99A64 /* AppDelegate.swift */,
 				A5545FE32318696600B99A64 /* ViewController.swift */,
-				A55460092318792D00B99A64 /* TriviaMod.swift */,
+				A554603A231DD86300B99A64 /* Models */,
 				A5545FE52318696600B99A64 /* Main.storyboard */,
 				A5545FE82318696900B99A64 /* Assets.xcassets */,
 				A5545FEA2318696900B99A64 /* LaunchScreen.storyboard */,
@@ -107,6 +109,15 @@
 				A5545FF82318696900B99A64 /* Info.plist */,
 			);
 			path = "Unit-Testing-LabTests";
+			sourceTree = "<group>";
+		};
+		A554603A231DD86300B99A64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A55460092318792D00B99A64 /* TriviaMod.swift */,
+				A5546038231DD85300B99A64 /* StarWarsMod.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +227,7 @@
 				A554600A2318792D00B99A64 /* TriviaMod.swift in Sources */,
 				A5545FE42318696600B99A64 /* ViewController.swift in Sources */,
 				A5545FE22318696600B99A64 /* AppDelegate.swift in Sources */,
+				A5546039231DD85300B99A64 /* StarWarsMod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
