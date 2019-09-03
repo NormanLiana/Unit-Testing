@@ -183,6 +183,21 @@ class Unit_Testing_LabTests: XCTestCase {
     
     // MARK: Testing suite for Jokes.json file
     
+    private func getJokesDataFromJSON() -> Data {
+        guard let pathToData = Bundle.main.path(forResource: "Jokes", ofType: "json") else {
+            fatalError("couldn't find json file called Jokes.json")
+        }
+        let url = URL(fileURLWithPath: pathToData)
+        do {
+            let data = try Data(contentsOf: url)
+            return data
+        } catch let jsonError {
+            fatalError("couldn't find data in json file: \(jsonError)")
+        }
+    }
     
+    func testJokesArrayHasTenElements() {
+        
+    }
     
 }
