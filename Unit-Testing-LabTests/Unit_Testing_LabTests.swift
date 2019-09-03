@@ -197,7 +197,9 @@ class Unit_Testing_LabTests: XCTestCase {
     }
     
     func testJokesArrayHasTenElements() {
-        
+        let data = getJokesDataFromJSON()
+        let joke = Jokes.getJokes(from: data)
+        XCTAssertTrue(joke.count == 10, "The array does not have ten elements")
     }
     
 }

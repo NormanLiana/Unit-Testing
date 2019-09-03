@@ -21,6 +21,7 @@
 		A5546039231DD85300B99A64 /* StarWarsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5546038231DD85300B99A64 /* StarWarsMod.swift */; };
 		A554603B231DE3C900B99A64 /* StarWarsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5546038231DD85300B99A64 /* StarWarsMod.swift */; };
 		A554603D231DEC0700B99A64 /* JokesMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554603C231DEC0700B99A64 /* JokesMod.swift */; };
+		A554603E231DED8100B99A64 /* JokesMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A554603C231DEC0700B99A64 /* JokesMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -241,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A554603B231DE3C900B99A64 /* StarWarsMod.swift in Sources */,
+				A554603E231DED8100B99A64 /* JokesMod.swift in Sources */,
 				A5545FF72318696900B99A64 /* Unit_Testing_LabTests.swift in Sources */,
 				A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */,
 			);
