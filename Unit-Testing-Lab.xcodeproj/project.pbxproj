@@ -19,6 +19,7 @@
 		A554600A2318792D00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
 		A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55460092318792D00B99A64 /* TriviaMod.swift */; };
 		A5546039231DD85300B99A64 /* StarWarsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5546038231DD85300B99A64 /* StarWarsMod.swift */; };
+		A554603B231DE3C900B99A64 /* StarWarsMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5546038231DD85300B99A64 /* StarWarsMod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -235,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A554603B231DE3C900B99A64 /* StarWarsMod.swift in Sources */,
 				A5545FF72318696900B99A64 /* Unit_Testing_LabTests.swift in Sources */,
 				A5546037231D455C00B99A64 /* TriviaMod.swift in Sources */,
 			);
