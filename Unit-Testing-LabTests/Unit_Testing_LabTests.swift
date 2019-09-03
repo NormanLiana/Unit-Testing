@@ -198,8 +198,24 @@ class Unit_Testing_LabTests: XCTestCase {
     
     func testJokesArrayHasTenElements() {
         let data = getJokesDataFromJSON()
-        let joke = Jokes.getJokes(from: data)
+        let joke = JokesArray.getJokes(from: data)
         XCTAssertTrue(joke.count == 10, "The array does not have ten elements")
     }
+    
+    
+//    index: Int, setup: String, punchline: String
+    
+//    func testVerifyJokesHaveExpectedValues() {
+//        let data = getTriviaDataFromJSON()
+//        let jokes = JokesArray.getJokes(from: data)
+//        let joke = jokes[0]
+//        XCTAssertEqual(joke.setup, "Why do C# and Java developers keep breaking their keyboards?")
+//        XCTAssertEqual(joke.punchline, "Because they use a strongly typed language.")
+//
+//    }
+    
+//    func testVerifyFirstJokeHasExpectedValues() {
+//
+//    }
     
 }
